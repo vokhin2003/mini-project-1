@@ -116,7 +116,7 @@
 /* Section-one */
 
 .section-one {
-    background-image: url(/vokhin-mini-project-1/assets/images/background1.jpg);
+    background-image: url(../images/background1.jpg);
     background-position: center;
     background-size: cover;
     padding: 160px 0;   
