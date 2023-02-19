@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --color-one: #EFEFEF;
+    --color-btn: #f7d9c4;
+    --color-btn-one: #EFEFEF;
+}
+
+/* .container {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+} */
+
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 16px 42px;
+    border: 1.6px solid transparent;
+    cursor: pointer;
+    background: #ccc;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.btn-one {
+    color: #000;
+    background: var(--color-btn);
+
+}
+
+.btn-one:hover {
+    background: white;
+    border-color: white;
+}
+
+.btn-two {
+    color: white;
+    border-color: #464646;
+    background-color: transparent;
+}
+
+.btn-two:hover {
+    color: #000;
+    background: var(--color-btn);
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn-three {
+    padding: 16px 42px;
+    margin: 10px;
+    color: #fff;
+    border-color: #232323;
+    background-color: #232323;
+}
+
+/* .btn:hover {
+    color: white;
+} */
+
+
+.btn-modal {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    border: 2px solid #fff;
+    opacity: 0.5;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.btn-modal:hover {
+    opacity: 1;
+    background-color: #000;
+}
